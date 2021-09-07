@@ -1,0 +1,29 @@
+.navbar-brand {
+  font-family: viga;
+  font-size: 28px;
+}
+.jumbotron {
+  padding-top: 14rem;
+  background-image: url(img/at.jpg);
+  background-size: cover;
+  height: 640px;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: acme;
+}
+p {
+  font-family: Patrick Hand;
+}
+
+footer {
+  background-color: rgb(37, 206, 141);
+}
+
+/* versi desk */
+@media (min-width: 992px) {
+  .jumbotron {
+    padding-top: 14rem;
+  }
+}
